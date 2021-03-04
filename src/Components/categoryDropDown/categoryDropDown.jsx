@@ -11,6 +11,7 @@ const CategoryDropDown = () => {
     let [category, setCategory] = useState(false)
     let [subCategory, setSubCategory] = useState(false)
     let [value ,setValue] = useState('')
+    let [valueTwo ,setValueTwo] = useState('')
 
     const handleOpen = () => {
         setOpen(!open)
@@ -29,7 +30,7 @@ const CategoryDropDown = () => {
     }
     const handleStepTwo = e =>{
         console.log(e)
-        setValue(e)
+        setValueTwo(e)
         if(category){
             setCategory(!category)
         }
@@ -52,6 +53,7 @@ const CategoryDropDown = () => {
                    handleShowWomen={handleShowWomen}
                    handleBack={handleBack}
                    value={value}
+                   valueTwo={valueTwo}
                    handleStepTwo={handleStepTwo}
                    stepThree={subCategory}
                    handleBacktwo={handleBacktwo}
