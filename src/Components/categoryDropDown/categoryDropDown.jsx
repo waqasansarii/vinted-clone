@@ -15,6 +15,15 @@ const CategoryDropDown = () => {
 
     const handleOpen = () => {
         setOpen(!open)
+        if(category){
+            setCategory(!category)
+        }
+        if(subCategory){
+            setSubCategory(!subCategory)
+        }
+        // if(!open){
+        //     setOpen(!open)
+        // }
     }
     const handleShowWomen = (e)=> {
         setValue(e)
@@ -29,7 +38,7 @@ const CategoryDropDown = () => {
         setCategory(!category)
     }
     const handleStepTwo = e =>{
-        console.log(e)
+        // console.log(e)
         setValueTwo(e)
         if(category){
             setCategory(!category)
