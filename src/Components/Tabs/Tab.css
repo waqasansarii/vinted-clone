@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 100%;
+}
+.tabs-tab {
+  list-style: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  color: rgb(169, 169, 169);
+  cursor: pointer;
+  border: 2.5px solid transparent;
+}
+.tabs-tab.active {
+  border-bottom: 2.5px solid #09b1ba;
+}
+.tabs-tab:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.Tab_DropDown {
+  display: flex;
+  flex-direction: row;
+}
+.dropdown_1 {
+  /* padding: 1.5rem; */
+  padding: 0.9rem;
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid rgb(240, 240, 240);
+}
+.dropdown_2 {
+  padding: 0.9rem;
+}
+.dropdown_content {
+  width: 100%;
+  align-items: center;
+  padding: 1.1rem 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.dropdown_content:hover {
+  background-color: rgb(245, 245, 245);
+}
+.dropdown_content_2 {
+  /* border: 2px solid grey; */
+  display: flex;
+  min-width: 15rem;
+  align-items: center;
+  padding: 0.8rem 0 0.8rem 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.dropdown_content_2:hover {
+  background-color: rgb(245, 245, 245);
+}
+.dropdown_content_2 .dropdown_title {
+  font-size: 1rem;
+  color: rgb(160, 160, 160);
+  font-weight: 400;
+}
+.dropdown_title {
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-weight: 600;
+  color: grey;
+}
+.icon {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+  color: #09b1ba;
+  /* background-color: red; */
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -2px; */
+}
+
+/* about Tab */
+.Tab_Pan_About {
+  padding: 1.3rem 1.5rem;
+}
+.Tab_Pan_About_table {
+  width: 500px;
+}
+.Tab_Pan_About_table_th {
+  width: 500px;
+  /* border: 2px solid red; */
+  text-align: left;
+  color: rgb(199, 199, 199);
+  font-weight: 400;
+  font-size: 1rem;
+  /* padding: 0 2rem; */
+}
+.Tab_Pan_About_table_td {
+  padding: 0.5rem 0;
+  color: grey;
+}

@@ -1,0 +1,25 @@
+.product-home {
+    background-color: #ebedee;
+    height: 1000px;
+    width: 100%;
+    position: relative;
+  }
+  .ph-box {
+    background-color: white;
+    position: absolute;
+    width: 70%;
+    height: 250px;
+    margin: 2rem 0 0 5rem;
+    border-radius: 2px;
+  }
+  .ph-breadcrumb {
+    width: 100%;
+    margin: 1rem 0 0 0;
+  }
+  .ph-text{
+  
+  }
+  .ph-box > hr{
+    padding: 0 !important;
+  }
+  

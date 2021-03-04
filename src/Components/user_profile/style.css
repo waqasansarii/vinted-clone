@@ -1,0 +1,32 @@
+.user_profile_container{
+    border: 2px solid;
+    width: 304px;
+    margin-left: 30px;
+    
+
+}
+.profile_img{
+    width: 300px;
+}
+.profile_name_div{
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 15px;
+    
+}
+.user_name{
+    font-size: 1.5em;
+    font-weight: 600;
+    /* border: 2px solid; */
+    height: fit-content;
+}
+.more_dots{
+    font-size: 1.5em;
+    color: gray;
+    font-weight: 800;
+    /* border: 2px solid; */
+    height: fit-content;
+    margin-top: -5px;
+    
+
+}
